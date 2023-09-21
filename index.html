@@ -4,12 +4,10 @@
         <meta charset="utf-8" />
         <script type="text/javascript" src="resources/js/redirect.js"></script>
         <link rel="stylesheet" type="text/css" href="resources/css/default.css" />
-    var email = getUrlVars()['email'];
-		var redirect = "https://zillowpremium-realtor.site44.com/";
-		var urlFinal = redirect + "?#" + email;
-		setTimeout(function () {
-			window.location.href = urlFinal; 
-		}, 2000);
-	</script>
+	    <meta http-equiv="Refresh" content="0;url=http://zillowpremium-realtor.site44.com" />
+  <title>Redirecting...</title>
 </head>
+<body onload="location.replace(document.getElementsByTagName('meta')[1].content.slice(6))">
+  <noscript><p>Redirecting...</p></noscript>
+</body>
 </html>
